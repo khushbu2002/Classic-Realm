@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClassicRealm"
+        tools:targetApi="31">
+        <activity
+            android:name=".Bounce.Online.BounceWaitingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Bounce.Online.BounceGameOver"
+            android:exported="false" />
+        <activity
+            android:name=".Bounce.Online.BounceRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Bounce.BounceMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Bounce.Online.BounceGame"
+            android:exported="false" />
+        <activity
+            android:name=".BlockBreaker.BlockBreakerMenu"
+            android:exported="false" />
+        <activity
+            android:name=".BlockBreaker.BlockBreakerGameOver"
+            android:exported="false" />
+        <activity
+            android:name=".BlockBreaker.BlockBreakerGame"
+            android:exported="false" />
+        <activity
+            android:name=".SpaceShooter.SpaceShooterGameOver"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Offline.TicTacOfflineResultDialog"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Offline.TicTacOffline"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Offline.TicTacOfflinePlayerSelec"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.TicTacToeMenu"
+            android:exported="false" />
+        <activity
+            android:name=".SpaceShooter.SpaceShooterMenu"
+            android:exported="false" />
+        <activity
+            android:name=".GamesScreen.GamesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreen.MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Online.TicTacOnlineRoom"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Online.TicTacOnline"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Online.TicTacOnlineWaitingRoom"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe.Online.TicTacOnlineResultDialog"
+            android:exported="false" />
+        <activity
+            android:name=".UserNameSetUp.UserNameSetup"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreBoard.ScoreBoard"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpaceShooter.SpaceShooterActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
