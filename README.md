@@ -4,7 +4,7 @@
 Classic Realm is a real-time multiplayer Android game built using Java and Firebase.  
 The project focuses on backend logic for multiplayer interactions, real-time data synchronization, and user session management.
 
----
+----
 
 ## 🛠️ Tech Stack
 
